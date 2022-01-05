@@ -25,7 +25,7 @@ public class DataService {
 		HttpResponse<String> response = client.send(request,HttpResponse.BodyHandlers.ofString());
 		
 		StringReader csvReader = new StringReader(response.body());
-		
+		Iterable<T>
 	}
 	
 }
